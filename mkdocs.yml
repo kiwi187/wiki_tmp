@@ -1,0 +1,17 @@
+site_name: My Docs
+dev_addr: 127.0.0.1:8001
+
+theme:
+    name: null
+    custom_dir: 'cinder'
+    highlightjs: true
+
+nav:
+    - Главная: 'index.md'
+    - Tools:
+      - Пакеты для установки: 'pip_install.md'
+      - Начало: django/start.md
+      - Файл настроек: django/settings.md
+      - Команды: commands.md
+    - Шпора: py.md
+    - Git: git/keys.md
